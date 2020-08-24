@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">My Roommate</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string-array name="sexe_array">
+        <item>Homme</item>
+        <item>Femme</item>
+        <item>Non spécifié</item>
+    </string-array>
+    <string-array name="type_array">
+        <item>Appartement</item>
+        <item>Chambre</item>
+        <item>Résidence</item>
+    </string-array>
+    <string name="message_paiement_demandeur">Afin de finaliser votre demande, et de vous afficher le contact (email,numéro de téléphone) de l\'offreur, vous devez payer 5% du prix de location du logement. Ce qui correspond à :</string>
+    <string name="message_paiement_offreur">Afin de finaliser votre opération de colocation, et de vous afficher le contact (email,numéro de téléphone) du demandeur, vous devez payer 5% du prix de location du logement. Ce qui correspond à :</string>
+</resources>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ParametresActivity"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <ImageView
+            android:id="@+id/updatedProfilPicture"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_weight="9"
+            android:src="@drawable/john_doe"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <ProgressBar
+            android:id="@+id/uploadUpdatedPB"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="9"
+            android:theme="@style/ProgressBarTheme" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <Button
+            android:id="@+id/btnUpdateProfilPicture"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="9"
+            android:background="@drawable/bg_edittext"
+            android:gravity="center"
+            android:text="Changer la photo de profil" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <EditText
+            android:id="@+id/etUpdatedEmail"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:inputType="textEmailAddress"
+            android:layout_weight="9"
+            android:background="@drawable/bg_edittext"
+            android:drawableLeft="@drawable/ic_email"
+            android:drawablePadding="10dp"
+            android:paddingLeft="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/darkGray" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <EditText
+            android:id="@+id/etUpdatedPassword"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="9"
+            android:inputType="textPassword"
+            android:background="@drawable/bg_edittext"
+            android:drawableLeft="@drawable/ic_key"
+            android:drawablePadding="10dp"
+            android:paddingLeft="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/darkGray" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="9"
+            android:background="@drawable/bg_edittext"
+            android:gravity="center"
+            android:text="Mettre à jour"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+</LinearLayout>

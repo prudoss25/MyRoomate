@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group
+        android:id="@+id/topSection"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/accueil"
+            android:icon="@drawable/ic_home"
+            android:title="Accueil" />
+        <item
+            android:id="@+id/offres"
+            android:icon="@drawable/ic_offer"
+            android:title="Offres" />
+        <item
+            android:id="@+id/demandes"
+            android:icon="@drawable/ic_email"
+            android:title="Demandes" />
+        <item
+            android:id="@+id/chat"
+            android:icon="@drawable/ic_chat"
+            android:title="Chat" />
+        <item
+            android:id="@+id/notifications"
+            android:icon="@drawable/ic_notifications"
+            android:title="Notifications" />
+        <item
+            android:id="@+id/parametres"
+            android:icon="@drawable/ic_settings"
+            android:title="Paramètres" />
+
+    </group>
+
+    <group
+        android:id="@+id/bottomSection"
+        android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/aPropos"
+            android:icon="@drawable/ic_info"
+            android:title="A propos" />
+        <item
+            android:id="@+id/deconnexion"
+            android:icon="@drawable/ic_exit"
+            android:title="Déconnexion" />
+
+    </group>
+
+
+</menu>
